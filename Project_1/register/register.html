@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./register.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- head -->
+    <div class="head">
+      <div class="sub-head">
+        FREE LIGHT STICK KEY RING WITH ALL PURCHASES OVER $100 WHILE SUPPLIES
+        LAST.
+        <br />
+        FREE U.S. SHIPPING ON ALL ORDERS OVER $75.
+      </div>
+    </div>
+    <!-- End header -->
+    <!-- Main -->
+    <form id="form">
+      <div class="container">
+        <h1>Register</h1>
+        <hr />
+        <div id="usernameError" class="err"></div>
+        <label for="username"><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter username"
+          name="username"
+          id="username"
+        />
+        <div id="emailError" class="err"></div>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" />
+        <div id="passwordError" class="err"></div>
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+        />
+        <div id="passwordConfirmError" class="err"></div>
+        <label for="re-password"><b>Confirm Password</b></label>
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          name="re-password"
+          id="re-password"
+        />
+
+        <hr />
+        <p>
+          By creating an account you agree to our
+          <a href="#">Terms & Privacy</a>.
+        </p>
+
+        <button type="submit" class="registerbtn">Register</button>
+      </div>
+
+      <div class="container signin">
+        <p>
+          Already have an account? <a href="../login/login.html">Sign in</a>.
+        </p>
+      </div>
+    </form>
+    <!-- End main -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./register.js"></script>
+  </body>
+</html>

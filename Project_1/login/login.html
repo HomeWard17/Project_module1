@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- head -->
+    <div class="head">
+      <div class="sub-head">
+        FREE LIGHT STICK KEY RING WITH ALL PURCHASES OVER $100 WHILE SUPPLIES
+        LAST.
+        <br />
+        FREE U.S. SHIPPING ON ALL ORDERS OVER $75.
+      </div>
+    </div>
+    <!-- End header -->
+    <!-- Main -->
+    <form id="login-form">
+      <div class="container">
+        <h1>Login</h1>
+        <hr />
+        <div id="usernameErr" class="err"></div>
+        <label for="username"><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter username"
+          name="username"
+          id="username"
+        />
+        <div id="passErr" class="err"></div>
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+        />
+        <hr />
+        <p>
+          By creating an account you agree to our
+          <a href="#">Terms & Privacy</a>.
+        </p>
+
+        <button type="submit" class="loginbtn">Login</button>
+      </div>
+
+      <div class="container signup">
+        <p>
+          Dont have an account?<a href="../register/register.html">Sign up</a>.
+        </p>
+      </div>
+    </form>
+    <!-- End main -->
+
+    <script src="./login.js"></script>
+  </body>
+</html>
